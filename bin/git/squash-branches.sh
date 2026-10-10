@@ -19,7 +19,7 @@ shift
 
 branches=( $( echo "${@}" | sed "s/:/\//" ) )
 base="${branches[0]}"
-unset branches[0]
+unset branches'[0]'
 
 set -e
 
